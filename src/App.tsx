@@ -1,14 +1,20 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from '@/layout/Layout';
+import Home from '@/pages/Home';
+import About from '@/pages/About';
+
 import './App.css';
-import Counter from '@components/Counter.tsx';
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Sports Betting
-      </h1>
-      <Counter />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
