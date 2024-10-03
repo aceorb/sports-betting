@@ -11,10 +11,7 @@ function WalletConnect() {
         </span>
         <span className="text-white text-[14px]">7.456</span>
       </div>
-      <button
-        type="button"
-        className={`bg-yellow-500 border-yellow-400 -mt-[2px] ${styles.button} ${styles.rounded_rect}`}
-      >
+      <button type="button" className="secondary-button flex items-center justify-center w-[36px]">
         <span className="text-[25px] text-white">+</span>
       </button>
     </div>

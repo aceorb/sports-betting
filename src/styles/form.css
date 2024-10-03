@@ -1,9 +1,19 @@
 .primary-button{
     background: linear-gradient(180deg, #00E6F6 0%, #08777E 100%);
-    border: 2px solid #4AF3FF;
-    border-radius: 100px;
+    border-radius: 12px;
     padding: 4px 8px 4px 8px;
     gap: 10px;
+    height: 36px;
+    font-size: 13px;
+}
+
+.secondary-button {
+    background: linear-gradient(180deg, #FFEF03 0%, #D3751E 100%);
+    border-radius: 12px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    height: 36px;
+    font-size: 13px;
 }
 
 .group-container {
