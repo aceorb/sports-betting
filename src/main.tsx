@@ -6,6 +6,7 @@ import App from './App.tsx';
 import './index.css';
 import './styles/utility.css';
 import './styles/layout.css';
+import './styles/form.css';
 
 import { store } from './store/store';
 

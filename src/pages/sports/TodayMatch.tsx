@@ -4,22 +4,26 @@ import ImgFcSalzburg from '@assets/images/fc-salzburg.webp';
 export default function TodayMatch() {
   return (
     <div className="today-match flex flex-col py-3 px-1 relative gap-10 text-white">
-      <img src={ImgTodayMatchBackground} alt="background" className="absolute w-100 h-full w-full" />
+      <img
+        src={ImgTodayMatchBackground}
+        alt="background"
+        className="absolute w-100 h-full w-full object-cover inset-0"
+      />
       <div className="flex z-10 justify-between px-2 items-start">
         <div className="max-w-16 text-xs">MLS</div>
-        <div className="rounded-lg py-1 px-2 bg-red-500">TODAY</div>
+        <div className="rounded-lg py-1 px-2 bg-red-500 leading-none font-bold">TODAY</div>
       </div>
       <div className="flex z-10 justify-between px-2 items-end">
         <div className="flex items-center gap-2 rounded-3xl p-1 bg-gray-600">
           <div className="w-9 h-9 relative">
-            <img src={ImgClubBruggeKv} alt="team1" />
+            <img src={ImgClubBruggeKv} alt="team1" className="inset-0" />
           </div>
           <span className="text-xs font-bold italic">VS</span>
           <div className="w-9 h-9 relative">
-            <img src={ImgFcSalzburg} alt="team2" />
+            <img src={ImgFcSalzburg} alt="team2" className="inset-0" />
           </div>
         </div>
-        <button>Bet Now</button>
+        <button className="primary-button">Bet Now</button>
       </div>
       <div className="main-info absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 flex gap-2 flex-col items-center">
         <div className="team-name-container flex flex-col">
