@@ -2,5 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    @apply h-full w-full flex flex-col;
+}
+
+:root {
+    @apply bg-grey-100 flex-grow h-full w-full flex;
+}
+

@@ -3,8 +3,8 @@ import { Outlet } from 'react-router-dom';
 
 function Layout() {
   return (
-    <div>
-      <main>
+    <div className="h-full flex flex-col">
+      <main className="flex-grow">
         <Outlet />
       </main>
       <Navbar />

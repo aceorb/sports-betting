@@ -3,8 +3,6 @@ import Layout from '@/layout/Layout';
 import Home from '@/pages/Home';
 import About from '@/pages/About';
 
-import './App.css';
-
 function App() {
   return (
     <Router>
