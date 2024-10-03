@@ -1,0 +1,3 @@
+.flex-single-center {
+    @apply flex justify-center items-center;
+}

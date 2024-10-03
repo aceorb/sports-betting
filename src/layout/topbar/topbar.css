@@ -1,0 +1,11 @@
+.topbar-primary-theme {
+    @apply border-[#1F2848] bg-[#1B213F];
+}
+
+.topbar-rounded-rect {
+    @apply rounded-[12px] border-2;
+}
+
+.topbar-button {
+    @apply w-[40px] h-[40px] flex items-center justify-center;
+}
