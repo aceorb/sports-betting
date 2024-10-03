@@ -23,7 +23,7 @@ export default function TodayMatch() {
             <img src={ImgFcSalzburg} alt="team2" className="inset-0" />
           </div>
         </div>
-        <button className="primary-button">Bet Now</button>
+        <button className="primary-button righteous-regular">Bet Now</button>
       </div>
       <div className="main-info absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 flex gap-2 flex-col items-center">
         <div className="team-name-container flex flex-col">
