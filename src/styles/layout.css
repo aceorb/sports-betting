@@ -1,0 +1,15 @@
+.navbar {
+    @apply text-grey-400;
+}
+
+.navbar img {
+    @apply opacity-40;
+}
+
+.navbar.active {
+    @apply text-white;
+}
+
+.navbar.active img {
+    @apply opacity-100;
+}
