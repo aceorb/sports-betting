@@ -5,6 +5,7 @@ import react from 'eslint-plugin-react';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import jsxA11y from 'eslint-plugin-jsx-a11y';
 
 export default tseslint.config(
   { ignores: ['dist/', 'node_modules/', 'build/'] },
@@ -26,4 +27,5 @@ export default tseslint.config(
     },
   },
   eslintConfigPrettier,
+  jsxA11y.flatConfigs.recommended,
 );
