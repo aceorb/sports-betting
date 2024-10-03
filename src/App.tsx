@@ -1,15 +1,19 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from '@/layout';
-import Home from '@/pages/Home';
-import About from '@/pages/About';
+import SportsPage from '@/pages/sports';
+import AIPage from '@/pages/ai';
+import BetslipPage from '@/pages/betslip';
+import MyBetsPage from '@/pages/my-bets';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route index element={<SportsPage />} />
+          <Route path="/ai" element={<AIPage />} />
+          <Route path="/betslip" element={<BetslipPage />} />
+          <Route path="/my-bets" element={<MyBetsPage />} />
         </Route>
       </Routes>
     </Router>
