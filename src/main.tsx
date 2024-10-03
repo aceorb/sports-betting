@@ -5,6 +5,7 @@ import App from './App.tsx';
 
 import './index.css';
 import './styles/utility.css';
+import './styles/layout.css';
 
 import { store } from './store/store';
 
