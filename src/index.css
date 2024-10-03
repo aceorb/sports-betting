@@ -29,3 +29,6 @@ body {
     @apply bg-grey-100 flex-grow h-full w-full flex;
 }
 
+body #root {
+    @apply h-full w-full;
+}
