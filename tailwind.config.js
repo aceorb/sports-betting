@@ -10,6 +10,7 @@ export default {
           300: '#333F6D',
           400: '#424D71',
         },
+        btn_primary: {},
       },
     },
   },
