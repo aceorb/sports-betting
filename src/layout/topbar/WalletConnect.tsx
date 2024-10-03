@@ -1,4 +1,4 @@
-import './topbar.css';
+import './side-menu/SideMenu.module.css';
 
 function WalletConnect() {
   return (

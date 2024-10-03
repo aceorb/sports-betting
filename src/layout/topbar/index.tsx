@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import WalletConnect from '@/layout/topbar/WalletConnect.tsx';
-import SideMenu from '@/layout/topbar/SideMenu.tsx';
+import SideMenu from '@/layout/topbar/side-menu';
 
 function Topbar() {
   return (
