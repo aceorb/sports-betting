@@ -1,4 +1,5 @@
-import styles from './SideMenu.module.css';
+import styles from './index.module.css';
+
 function SideMenu() {
   return (
     <div className="pl-[10px]">
