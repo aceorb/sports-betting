@@ -20,6 +20,13 @@
     font-style: normal;
 }
 
+.proximanova-bold {
+    font-family: "Proximanova", sans-serif;
+    font-weight: 700;
+}
+
+
+
 
 body {
     @apply h-full w-full flex flex-col;
