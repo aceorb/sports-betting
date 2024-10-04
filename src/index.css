@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Proxima+Nova&family=Roboto:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Proxima+Nova&family=Roboto:wght@400;700&display=swap');*/
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "Righteous";
+    src:local("Righteous-Regular"),
+    url('./assets/fonts/Righteous-Regular.ttf')
+}
 
 .roboto-regular {
     font-family: "Roboto", sans-serif;
