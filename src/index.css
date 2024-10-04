@@ -10,6 +10,18 @@
     url('./assets/fonts/Righteous-Regular.ttf')
 }
 
+@font-face{
+    font-family: "Roboto";
+    src:local("Roboto-Regular"),
+    url('./assets/fonts/Roboto-Regular.ttf')
+}
+
+@font-face{
+    font-family: "Proximanova";
+    src:local("Proximanova-Regular"),
+    url('./assets/fonts/proximanova-regular-webfont.ttf')
+}
+
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
