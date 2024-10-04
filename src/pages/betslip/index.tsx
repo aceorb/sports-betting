@@ -1,4 +1,4 @@
-import NoPosition from '@/pages/betslip/NoPosition.tsx';
+import NoPosition from '@components/NoPosition.tsx';
 
 function BetslipPage() {
   return (

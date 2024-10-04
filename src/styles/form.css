@@ -37,9 +37,17 @@
 .dropdown-item-container {
     background: #151A32;
     border: 1px solid #161E3A;
+
+
     @apply rounded-[8px] h-[36px] p-2;
 }
 
 .dropdown-text-color {
     color: #C0BAE4;
+}
+
+.stats-container {
+    background: #151A32;
+    border: 2px solid #161E3A;
+    @apply rounded-[8px] p-2 ;
 }
