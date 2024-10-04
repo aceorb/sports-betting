@@ -6,7 +6,7 @@ function Layout() {
   return (
     <div className="h-full flex flex-col bg-grey-100">
       <Topbar />
-      <main className="flex-grow">
+      <main className="flex-grow overflow-auto">
         <Outlet />
       </main>
       <Navbar />

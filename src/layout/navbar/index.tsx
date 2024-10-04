@@ -14,7 +14,7 @@ const menus = [
 
 function Navbar() {
   return (
-    <nav className="bg-grey-200 h-[70px]">
+    <nav className="bg-grey-200 h-[70px] min-h-[70px]">
       <ul className="h-full flex justify-between items-center">
         {menus.map((item) => (
           <li key={item.icon} className="w-[90px]">
