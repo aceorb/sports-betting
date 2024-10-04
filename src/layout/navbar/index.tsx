@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const menus = [
   { label: 'Sports', link: '/', icon: 'home' },
+  // { label: 'Favourite', link: '/favourite', icon: 'favourite' },
   { label: 'AI', link: '/ai', icon: 'berry' },
   { label: 'Betslip', link: '/betslip', icon: 'chat' },
   { label: 'MyBets', link: '/my-bets', icon: 'casino' },

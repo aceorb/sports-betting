@@ -5,7 +5,7 @@ export default function EventItem({ event }: { event: Event }) {
   console.log(event);
   return (
     <div>
-      <div className="dropdown-item-container">
+      <div className="dropdown-item-container mb-1">
         <div className="flex items-center justify-between gap-1">
           <div className="flex gap-1">
             <div className="image">
