@@ -1,5 +1,11 @@
+import NoPosition from '@/pages/betslip/NoPosition.tsx';
+
 function BetslipPage() {
-  return <></>;
+  return (
+    <>
+      <NoPosition />
+    </>
+  );
 }
 
 export default BetslipPage;
