@@ -4,6 +4,7 @@ import SportsPage from '@/pages/sports';
 import AIPage from '@/pages/ai';
 import BetslipPage from '@/pages/betslip';
 import MyBetsPage from '@/pages/my-bets';
+import Favourites from '@/pages/favourites';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<SportsPage />} />
+          <Route path="/favourites" element={<Favourites />} />
           <Route path="/ai" element={<AIPage />} />
           <Route path="/betslip" element={<BetslipPage />} />
           <Route path="/my-bets" element={<MyBetsPage />} />

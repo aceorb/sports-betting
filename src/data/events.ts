@@ -1,8 +1,14 @@
+import ImgMarketPlaceholder from '@assets/images/market-placeholder.webp';
+import ImgWorld from '@assets/images/world.svg';
+import ImgJakubMensik from '@assets/images/jakub-mensik.webp';
+import ImgPedro from '@assets/images/pedro-martinez.webp';
+import ImgChristopher from "@assets/images/christopher-o'connell.webp";
+import ImgMatteoBerrettini from '@assets/images/matteo-berrettini.webp';
 export const eventsList = [
   {
     id: 1,
     favourite: true,
-    icon: 'market-placeholder.webp',
+    icon: ImgMarketPlaceholder,
     title: 'WTA Events',
     matches: [
       {
@@ -10,14 +16,14 @@ export const eventsList = [
         time: '3:00 AM',
         set: '2nd set',
         player1: {
-          icon: 'market-placeholder.webp',
+          icon: ImgMarketPlaceholder,
           score: 0,
           subscore: 2,
           name: 'Shuai Zhang',
           point: 7.5,
         },
         player2: {
-          icon: 'market-placeholder.webp',
+          icon: ImgMarketPlaceholder,
           score: 1,
           subscore: 0,
           name: 'Paula Badosa',
@@ -29,7 +35,7 @@ export const eventsList = [
   {
     id: 2,
     favourite: false,
-    icon: 'world.svg',
+    icon: ImgWorld,
     title: 'ATA Events',
     matches: [
       {
@@ -37,14 +43,14 @@ export const eventsList = [
         time: '2:00 AM',
         set: '3rd set',
         player1: {
-          icon: 'jakub-mensik.webp',
+          icon: ImgJakubMensik,
           score: 1,
           subscore: 2,
           name: 'Jakub Mensik',
           point: 1.15,
         },
         player2: {
-          icon: 'pedro-martinez.webp',
+          icon: ImgPedro,
           score: 1,
           subscore: 1,
           name: 'Paula Badosa',
@@ -56,14 +62,14 @@ export const eventsList = [
         time: '1:55 AM',
         set: '2nd set',
         player1: {
-          icon: "christopher-o'connell.webp",
+          icon: ImgChristopher,
           score: 0,
           subscore: 5,
           name: "Christopher O'Connell",
           point: 4.5,
         },
         player2: {
-          icon: 'matteo-berrettini.webp',
+          icon: ImgMatteoBerrettini,
           score: 1,
           subscore: 5,
           name: 'Matteo Berrettini',
