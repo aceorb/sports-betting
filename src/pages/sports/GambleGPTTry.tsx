@@ -6,7 +6,7 @@ export default function GambleGPTTry() {
         <div className="image">
           <img src={ImgGambleGPT} className="max-h-[67px]" alt="gamblegpt logo" />
         </div>
-        <div className="text flex flex-col">
+        <div className="text flex flex-col gap-1">
           <div className="roboto-bold text-white text-lg leading-4 text-shadow">GambleGPT</div>
           <div className="proximanova-bold leading-3 text-[11px] description-color text-shadow">
             The next generation of bet selection
