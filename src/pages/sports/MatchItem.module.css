@@ -1,0 +1,9 @@
+.info_box {
+    border: 1px solid #161E3A;
+    @apply rounded-[999px] flex justify-between flex-grow py-1 px-2 text-white;
+}
+.match_item_container {
+    border: 1px solid #161E3A;
+    background: #151A32;
+    @apply w-full rounded-2xl p-2 sm:px-4 sm:py-3 flex flex-col relative mb-1;
+}
