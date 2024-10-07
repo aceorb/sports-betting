@@ -7,7 +7,7 @@ export default function MatchItem({ match }: { match: EventMatch }) {
       <div className="flex gap-4 sm:gap-4 mb-2 text-center text-white">
         <div className="flex-1 flex flex-col gap-2 items-center justify-center min-h-30">
           <div className="relative w-16 h-16">
-            <img src={match.player1.icon} alt="player1" />
+            <img src={match.player1.icon} alt="player1" className="w-full"/>
           </div>
           <p className="font-semibold text-[11px]">{match.player1.name}</p>
         </div>
@@ -22,7 +22,7 @@ export default function MatchItem({ match }: { match: EventMatch }) {
         </div>
         <div className="flex-1 flex flex-col gap-2 items-center justify-center min-h-30">
           <div className="relative w-16 h-16">
-            <img src={match.player2.icon} alt="player2" />
+            <img src={match.player2.icon} alt="player2"  className="w-full"/>
           </div>
           <p className="font-semibold text-[11px]">C{match.player2.name}</p>
         </div>

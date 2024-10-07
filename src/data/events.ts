@@ -1,9 +1,9 @@
-import ImgMarketPlaceholder from '@assets/images/market-placeholder.webp';
 import ImgWorld from '@assets/images/world.svg';
 import ImgJakubMensik from '@assets/images/jakub-mensik.webp';
 import ImgPedro from '@assets/images/pedro-martinez.webp';
 import ImgChristopher from "@assets/images/christopher-o'connell.webp";
 import ImgMatteoBerrettini from '@assets/images/matteo-berrettini.webp';
+import ImgLogo from '@assets/images/logo.svg';
 
 import IconSoccer from '@assets/icons/soccer-icon.svg';
 import IconFootball from '@assets/icons/football-icon.svg';
@@ -66,7 +66,7 @@ export const eventsList = [
   {
     id: 1,
     favourite: true,
-    icon: ImgMarketPlaceholder,
+    icon: ImgLogo,
     title: 'WTA Events',
     matches: [
       {
@@ -74,14 +74,14 @@ export const eventsList = [
         time: '3:00 AM',
         set: '2nd set',
         player1: {
-          icon: ImgMarketPlaceholder,
+          icon: ImgLogo,
           score: 0,
           subscore: 2,
           name: 'Shuai Zhang',
           point: 7.5,
         },
         player2: {
-          icon: ImgMarketPlaceholder,
+          icon: ImgLogo,
           score: 1,
           subscore: 0,
           name: 'Paula Badosa',

@@ -1,10 +1,10 @@
-import ImgGambleGPT from '@assets/images/gamblegpt.webp';
+import ImgLogo from '@assets/images/logo.svg';
 export default function GambleGPTTry() {
   return (
     <div className="rounded-lg group-container">
       <div className="p-3 flex items-center justify-between gap-1">
         <div className="image">
-          <img src={ImgGambleGPT} className="max-h-[67px]" alt="gamblegpt logo" />
+          <img src={ImgLogo} className="max-h-[67px]" alt="gamblegpt logo" />
         </div>
         <div className="text flex flex-col gap-1">
           <div className="roboto-bold text-white text-lg leading-4 text-shadow">GambleGPT</div>
