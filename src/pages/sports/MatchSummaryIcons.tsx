@@ -5,7 +5,7 @@ export default function MatchSummaryIcons() {
   const [activeId, setActiveId] = useState(0);
   return (
     <div className="flex w-full px-4">
-      <div className="no-scrollbar flex items-center mx-auto overflow-x-auto h-16 gap-4">
+      <div className="flex items-center mx-auto overflow-x-auto h-16 gap-4">
         {matchesCountList.map((matchesCount) => (
           <SportIconBadge
             key={matchesCount.id}

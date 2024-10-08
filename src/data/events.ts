@@ -12,6 +12,16 @@ import IconBasketball from '@assets/icons/basketball-icon.svg';
 import IconHockey from '@assets/icons/hockey-icon.svg';
 import IconKabaddi from '@assets/icons/kabaddi-icon.svg';
 import IconVolleyball from '@assets/icons/volleyball-icon.svg';
+import IconCricket from '@assets/icons/cricket-icon.svg';
+import IconTennis from '@assets/icons/tennis-icon.svg';
+import IconHandball from '@assets/icons/handball-icon.svg';
+import IconMotorsports from '@assets/icons/motorsports-icon.svg';
+import IconWaterpolo from '@assets/icons/waterpolo-icon.svg';
+import IconTabletennis from '@assets/icons/tabletennis-icon.svg';
+import IconRugby from '@assets/icons/rugby-icon.svg';
+import IconEsports from '@assets/icons/esports-icon.svg';
+import IconPolitics from '@assets/icons/politics-icon.svg';
+import IconGolf from '@assets/icons/golf-icon.svg';
 export const matchesCountList = [
   {
     id: 1,
@@ -47,18 +57,78 @@ export const matchesCountList = [
     id: 6,
     icon: IconBasketball,
     title: 'Basketball',
-    count: 8,
+    count: 9,
   },
   {
     id: 7,
     icon: IconHockey,
     title: 'Hockey',
-    count: 8,
+    count: 12,
   },
   {
     id: 8,
     icon: IconKabaddi,
-    title: 'Kabaddi',
+    title: 'Fighting',
+    count: 0,
+  },
+  {
+    id: 9,
+    icon: IconCricket,
+    title: 'Cricket',
+    count: 2,
+  },
+  {
+    id: 10,
+    icon: IconTennis,
+    title: 'Tennis',
+    count: 9,
+  },
+  {
+    id: 11,
+    icon: IconHandball,
+    title: 'Handball',
+    count: 20,
+  },
+  {
+    id: 12,
+    icon: IconMotorsports,
+    title: 'MotoSports',
+    count: 1,
+  },
+  {
+    id: 13,
+    icon: IconWaterpolo,
+    title: 'Waterpolo',
+    count: 12,
+  },
+  {
+    id: 14,
+    icon: IconTabletennis,
+    title: 'TableTennis',
+    count: 3,
+  },
+  {
+    id: 15,
+    icon: IconRugby,
+    title: 'Rugby',
+    count: 9,
+  },
+  {
+    id: 16,
+    icon: IconEsports,
+    title: 'ESports',
+    count: 5,
+  },
+  {
+    id: 17,
+    icon: IconPolitics,
+    title: 'Politics',
+    count: 9,
+  },
+  {
+    id: 18,
+    icon: IconGolf,
+    title: 'Golf',
     count: 8,
   },
 ];

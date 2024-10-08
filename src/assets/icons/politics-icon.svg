@@ -1,0 +1,19 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    width="20px"
+    height="20px"
+    viewBox="0 0 256 256"
+  >
+    <g>
+      <g>
+        <path
+          stroke="#000"
+          fill="#FFF"
+          d="M128,38.1L10,102.4v9h6.5v6h2.7v6h4.3v61.7h14v-61.7h4.3v-6h2.7v-6h27.5v6h2.7v6h4.3v61.7h14v-61.7h4.3v-6h2.7v-6h55.6v6h2.7v6h4.3v61.7h14v-61.7h4.3v-6h2.7v-6h27.4v6h2.7v6h4.3v61.7h14v-61.7h4.3v-6h2.7v-6h6.6v-9L128,38.1z M128.2,91.7c-8,0-14.5-6.5-14.5-14.5c0-8,6.5-14.5,14.5-14.5c8,0,14.5,6.5,14.5,14.5C142.8,85.2,136.3,91.7,128.2,91.7z"
+        />
+        <path stroke="#000" fill="#FFF" d="M10,201.9h236v16H10V201.9z" />
+        <path stroke="#000" fill="#FFF" d="M20,185.9h216v16H20V185.9z" />
+      </g>
+    </g>
+  </svg>
