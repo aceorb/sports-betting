@@ -4,7 +4,7 @@ import SportIconBadge from '@/pages/sports/SportIconBadge.tsx';
 export default function MatchSummaryIcons() {
   const [activeId, setActiveId] = useState(0);
   return (
-    <div className="flex w-full px-4">
+    <div className="flex w-full">
       <div className="flex items-center mx-auto overflow-x-auto h-16 gap-4">
         {matchesCountList.map((matchesCount) => (
           <SportIconBadge
